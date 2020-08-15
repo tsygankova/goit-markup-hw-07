@@ -8,6 +8,11 @@
   .logo{
     color: $title-light-theme-color;
   }
+
+  .footer-logo {
+    display:block;
+    margin-bottom:20px;
+  }
   
   /*logo blue*/
   span{color: $logo-color;}

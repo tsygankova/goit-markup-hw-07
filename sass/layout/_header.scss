@@ -38,7 +38,7 @@
   }
   
   .menu-item:hover::after{
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
   
   /* index header*/
