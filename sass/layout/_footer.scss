@@ -52,10 +52,6 @@
     color: $title-dark-theme-color;
   }
   
-  .footer-logo{
-    color: #ffffff;
-  }
-  
   .social-footer{
     display:flex;
     flex-direction:column;
@@ -66,11 +62,10 @@
   
   .socialmedia{
     margin-right: 10px;
-  }
   
-  .socialmedia:last-child{
-    margin-right: 0px;
-  }
+    &:last-child{
+        margin-right: 0px;}
+    }
   
   .socialmedia-item{
     display: flex;
@@ -83,6 +78,10 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, 
+    &:focus{
+        background-color: $accent-color;}
   }
   
   .socialmedia-icon{
@@ -92,14 +91,9 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .socialmedia-item:hover, .social-media-item:focus{
-    background-color: $accent-color;
-  }
-  
-  .socialmedia-item:hover .socialmedia-icon, .social-media-item:focus .socialmedia-icon{
-    fill:$hover-buttons-text;
+ 
+  .socialmedia-item:hover &, .social-media-item:focus &{
+    fill:$hover-buttons-text;}
   }
   
   .subscription-form-container{
@@ -126,7 +120,7 @@
     margin-right: 26px;
   }
   
-  .button, .button:hover, .button:focus{
+  .button{
     display: flex;
     margin: 0 auto;
     min-width:200px;
@@ -142,12 +136,18 @@
     color: $title-dark-theme-color;
     border:transparent;
     align-items: center;
+
+    &.hover,
+    &.focus{
+        cursor: pointer;
+    }
+
+    .sendicon{
+        width:24px;
+        height:24px;
+        fill: $hover-buttons-text;
+        margin-left: 10px;
+        }
   }
-  
-  .sendicon{
-  width:24px;
-  height:24px;
-  fill: $hover-buttons-text;
-  margin-left: 10px;
-  }
+   
   

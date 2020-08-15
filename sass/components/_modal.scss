@@ -56,12 +56,11 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .close-form-button:hover .close-form-button-icon, 
-  .close-form-button:focus .close-form-button-icon{
-    fill: $accent-color;
-    cursor: pointer;
+
+    .close-form-button:hover &, 
+    .close-form-button:focus &{
+      fill: $accent-color;
+      cursor: pointer;}
   }
   
   .form-header{
@@ -230,6 +229,6 @@
   }
   
   .form-button:hover, .form-button:focus{
-  cursor: pointer;
-  }
+    cursor: pointer;
+    }
   

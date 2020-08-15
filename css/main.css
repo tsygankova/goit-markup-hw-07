@@ -70,11 +70,34 @@ h2 {
 .footer-logo {
   display: block;
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 /*logo blue*/
 span {
   color: #2196F3;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  min-width: 200px;
+  height: 50px;
+  padding: 10px 32px 10px 32px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  border: transparent;
+}
+
+.button:hover, .button:focus {
+  cursor: pointer;
 }
 
 .backdrop {
@@ -701,6 +724,9 @@ span {
 .footer-address {
   display: flex;
   flex-direction: column;
+  font-style: normal;
+  line-height: 1.71;
+  color: #ffffff;
 }
 
 .contacts {
@@ -717,13 +743,7 @@ span {
   align-items: center;
 }
 
-.footer-address {
-  font-style: normal;
-  line-height: 1.71;
-  color: #ffffff;
-}
-
-.footer-email, .footer-tel {
+.footer-contact {
   font-style: normal;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
@@ -732,10 +752,7 @@ span {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-email:hover,
-.footer-email:focus,
-.footer-tel:hover,
-.footer-tel:focus {
+.footer-contact:hover, .footer-contact:focus {
   color: #2196F3;
 }
 
@@ -749,10 +766,6 @@ span {
   font-weight: bold;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #ffffff;
-}
-
-.footer-logo {
   color: #ffffff;
 }
 
@@ -785,6 +798,10 @@ span {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.socialmedia-item:hover, .socialmedia-item:focus {
+  background-color: #2196F3;
+}
+
 .socialmedia-icon {
   width: 20px;
   height: 20px;
@@ -792,10 +809,6 @@ span {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.socialmedia-item:hover, .social-media-item:focus {
-  background-color: #2196F3;
 }
 
 .socialmedia-item:hover .socialmedia-icon, .social-media-item:focus .socialmedia-icon {
@@ -826,7 +839,7 @@ span {
   margin-right: 26px;
 }
 
-.button, .button:hover, .button:focus {
+.button {
   display: flex;
   margin: 0 auto;
   min-width: 200px;
@@ -844,7 +857,11 @@ span {
   align-items: center;
 }
 
-.sendicon {
+.button.hover, .button.focus {
+  cursor: pointer;
+}
+
+.button .sendicon {
   width: 24px;
   height: 24px;
   fill: #ffffff;
