@@ -3,31 +3,28 @@
     display: flex;
     padding-top: 60px;
     padding-bottom: 60px;
-    align-items: center;
-  }
+    align-items: center;}
   
-  .footer-address{
+.footer-address{
     display: flex;
     flex-direction: column;
     font-style: normal;
     line-height: 1.71;
-    color: $title-dark-theme-color;
-  }
-  .contacts{
+    color: $title-dark-theme-color;}
+
+.contacts{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 300px;
-    padding-right:69px;
-  }
+    padding-right:69px;}
   
-  .social-footer-list{
+.social-footer-list{
     display:flex;
     justify-content:flex-start;
-    align-items: center;
-  }
+    align-items: center;}
 
-  .footer-contact{
+.footer-contact{
     font-style: normal;
     line-height: 1.71;
     color: $footer-links-color;
@@ -38,29 +35,27 @@
     &:hover,
     &:focus{
         color: $accent-color;}
-  }
+}
   
-  .subscription-form-container{
-    display: flex;
-  }
-  .social-call{
+.subscription-form-container{
+    display: flex;}
+
+.social-call{
     padding-top:12px;
     margin-bottom:20px;
     font-weight: bold;
     line-height: 1.14;
     text-transform: uppercase;
-    color: $title-dark-theme-color;
-  }
+    color: $title-dark-theme-color;}
   
-  .social-footer{
+.social-footer{
     display:flex;
     flex-direction:column;
     align-items: flex-start;
     width:300px;
-    padding-right: 94px;
-  }
+    padding-right: 94px;}
   
-  .socialmedia{
+.socialmedia{
     margin-right: 10px;
 
     .social-list-item{
@@ -78,21 +73,21 @@
   
     &:last-child{
         margin-right: 0px;}
-    }
+}
   
-  .subscription-form-container{
+.subscription-form-container{
     display:flex;
     flex-direction: column;
   }
   
-  .subscription-line{
+.subscription-line{
     display: flex;
 
     .button{
-        padding: 8px 10px 12px 29px;
-  }
+        padding: 8px 10px 12px 29px;}}
+
   
-  .social-call-form{
+.social-call-form{
     width: 355px;
     height: 50px;
     background-color: $footer-color;
@@ -111,5 +106,3 @@
     height:24px;
     fill: $hover-buttons-text;
     margin-left: 10px;}
-   
-  
