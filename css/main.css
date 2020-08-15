@@ -502,26 +502,6 @@ span {
   padding-top: 200px;
 }
 
-.modal-btn,
-.modal-btn:hover,
-.model-btn:focus {
-  display: block;
-  margin: 0 auto;
-  min-width: 200px;
-  height: 50px;
-  padding: 10px 32px 10px 32px;
-  background: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.88;
-  align-items: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  border: transparent;
-}
-
 .features {
   display: flex;
 }
@@ -630,6 +610,11 @@ span {
   background-color: #f5f4fa;
 }
 
+.team {
+  display: flex;
+  justify-content: space-between;
+}
+
 .team-member {
   width: 270px;
   margin-right: 30px;
@@ -664,11 +649,6 @@ span {
 
 .team-member-text {
   margin-bottom: 16px;
-}
-
-.team {
-  display: flex;
-  justify-content: space-between;
 }
 
 .social {
@@ -814,10 +794,11 @@ span {
 
 .subscription-line .button {
   padding: 8px 10px 12px 29px;
+  justify-content: center;
 }
 
 .social-call-form {
-  width: 358px;
+  width: 355px;
   height: 50px;
   background-color: #2f303A;
   border: 1px solid rgba(255, 255, 255, 0.3);
