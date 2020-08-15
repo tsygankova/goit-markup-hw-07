@@ -50,6 +50,11 @@ h2 {
   margin-right: auto;
 }
 
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 /*logo*/
 .logo, .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -459,11 +464,6 @@ span {
   border: transparent;
 }
 
-.features-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .features {
   display: flex;
 }
@@ -535,7 +535,7 @@ span {
 }
 
 .business {
-  padding-bottom: 94px;
+  padding-top: 0px;
 }
 
 .business-item-title {
@@ -569,8 +569,6 @@ span {
 }
 
 .team-section {
-  padding-top: 94px;
-  padding-bottom: 91px;
   background-color: #f5f4fa;
 }
 
@@ -654,11 +652,6 @@ span {
 .social-list-item:hover .social-icon,
 .social-list-item:focus .social-icon {
   fill: #ffffff;
-}
-
-.clients-section {
-  padding-bottom: 94px;
-  padding-top: 94px;
 }
 
 .clients-container {
@@ -863,8 +856,6 @@ span {
 
 .portfolio {
   border-top: 1px solid #ECECEC;
-  padding-top: 93px;
-  padding-bottom: 94px;
 }
 
 .filters {
