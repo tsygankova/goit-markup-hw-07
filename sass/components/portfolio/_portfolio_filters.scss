@@ -1,0 +1,40 @@
+/*portfolio filters*/
+.filters{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  .filter-container{
+    margin-right: 8px;
+  }
+  .filter-container.last-child{
+    margin-right:0px;
+  }
+  
+  .filter{
+    color: var(--title-light-theme-color);
+    padding: 6px 22px;
+    border:transparent;
+    border-radius:4px;
+    background-color: var(--section-color);
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .filter, 
+  .filter:hover,
+  .filter:focus{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  
+  .filter:hover, .filter:focus{
+    color: var(--hover-buttons-text);
+    background-color: var(--portfolio-color);
+  }
+  

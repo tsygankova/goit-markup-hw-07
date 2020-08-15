@@ -1,0 +1,15 @@
+.footer{background: var(--footer-color);
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-items: center;
+  }
+
+  .social-call{
+    padding-top:12px;
+    margin-bottom:20px;
+    font-weight: bold;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-dark-theme-color);
+  }

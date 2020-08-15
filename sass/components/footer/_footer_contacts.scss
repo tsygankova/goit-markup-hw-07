@@ -1,0 +1,35 @@
+
+.footer-address{
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    padding-right:69px;
+  }
+  
+  .footer-address{
+    font-style: normal;
+    line-height: 1.71;
+    color: var(--title-dark-theme-color);
+  }
+  
+  .footer-email, .footer-tel{
+    font-style: normal;
+    line-height: 1.71;
+    color: var(--footer-links-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .footer-email:hover,
+  .footer-email:focus,
+  .footer-tel:hover,
+  .footer-tel:focus{
+    color: var(--accent-color);
+  }
+  
