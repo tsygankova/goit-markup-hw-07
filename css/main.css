@@ -133,7 +133,7 @@ span {
 
 .close-form-button:hover .close-form-button-icon,
 .close-form-button:focus .close-form-button-icon {
-  fill: var(--accent-color);
+  fill: #2196F3;
   cursor: pointer;
 }
 
@@ -191,17 +191,17 @@ span {
 }
 
 .form-input:focus ~ .form-label-icon {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .form-input:focus + .form-label,
 .form-input:not(:placeholder-shown) + .form-label {
   transform: translateY(-37px);
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .form-input:focus {
-  border-color: var(--accent-color);
+  border-color: #2196F3;
   cursor: pointer;
 }
 
@@ -240,11 +240,11 @@ span {
 .form-comment:focus + .comment-label,
 .form-comment:not(:placeholder-shown) + .comment-label {
   transform: translateY(-40px);
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .form-comment:focus {
-  border-color: var(--accent-color);
+  border-color: #2196F3;
 }
 
 .checkbox-form {

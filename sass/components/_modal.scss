@@ -60,7 +60,7 @@
   
   .close-form-button:hover .close-form-button-icon, 
   .close-form-button:focus .close-form-button-icon{
-    fill:var(--accent-color);
+    fill: $accent-color;
     cursor: pointer;
   }
   
@@ -121,17 +121,17 @@
   }
   
   .form-input:focus ~ .form-label-icon{
-  fill: var(--accent-color);
+  fill: $accent-color;
   }
   
   .form-input:focus + .form-label,
   .form-input:not(:placeholder-shown) + .form-label{
     transform: translateY(-37px);
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
   .form-input:focus{
-    border-color:var(--accent-color);
+    border-color: $accent-color;
     cursor: pointer;
   }    
   
@@ -170,11 +170,11 @@
   .form-comment:focus + .comment-label,
   .form-comment:not(:placeholder-shown) + .comment-label{
     transform: translateY(-40px);
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
   .form-comment:focus{
-    border-color: var(--accent-color);
+    border-color: $accent-color;
   }
   
   .checkbox-form{
