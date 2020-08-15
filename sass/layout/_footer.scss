@@ -62,39 +62,23 @@
   
   .socialmedia{
     margin-right: 10px;
+
+    .social-list-item{
+    background-color: $footer-social-background;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    .social-icon{
+        fill: $background-color;}
+
+    &:hover, 
+    &:focus{
+        background-color: $accent-color;}}
   
     &:last-child{
         margin-right: 0px;}
     }
-  
-  .socialmedia-item{
-    display: flex;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: $footer-social-background;
-    justify-content: center;
-    align-items: center;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover, 
-    &:focus{
-        background-color: $accent-color;}
-  }
-  
-  .socialmedia-icon{
-    width:20px;
-    height:20px;
-    fill: $title-dark-theme-color;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
- 
-  .socialmedia-item:hover &, .social-media-item:focus &{
-    fill:$hover-buttons-text;}
-  }
   
   .subscription-form-container{
     display:flex;
@@ -117,37 +101,12 @@
     padding-left: 16px;
     font-size:16px;
     line-height: 1.25;
-    margin-right: 26px;
-  }
-  
-  .button{
-    display: flex;
-    margin: 0 auto;
-    min-width:200px;
-    height: 50px;
-    padding: 8px 10px 12px 29px;
-    background: $accent-color;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    color: $title-dark-theme-color;
-    border:transparent;
-    align-items: center;
+    margin-right: 26px;}
 
-    &.hover,
-    &.focus{
-        cursor: pointer;
-    }
-
-    .sendicon{
-        width:24px;
-        height:24px;
-        fill: $hover-buttons-text;
-        margin-left: 10px;
-        }
-  }
+.sendicon{
+    width:24px;
+    height:24px;
+    fill: $hover-buttons-text;
+    margin-left: 10px;}
    
   
