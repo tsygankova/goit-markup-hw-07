@@ -17,10 +17,13 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
   
-  .client:last-child{
-    margin-right: 0px;
+        &:last-child{
+            margin-right: 0px;}
+        
+        &:hover, 
+        &:focus{
+            border-color: $accent-color;}
   }
   
   .client-logo{
@@ -28,12 +31,7 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-  
-    .client:hover, .client:focus{
-      border-color: $accent-color;
-    }
-  
-    .client:hover .client-logo, .client:focus .client-logo{
-      fill: $accent-color;
+    
+    .client:hover &, .client:focus &{
+      fill: $accent-color;}
     }

@@ -675,15 +675,15 @@ span {
   margin-right: 0px;
 }
 
+.client:hover, .client:focus {
+  border-color: #2196F3;
+}
+
 .client-logo {
   fill: #AFB1B8;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.client:hover, .client:focus {
-  border-color: #2196F3;
 }
 
 .client:hover .client-logo, .client:focus .client-logo {
