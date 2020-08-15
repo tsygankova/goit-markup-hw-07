@@ -58,8 +58,13 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+      color: $accent-color;
+    }
   }
-  
+
   .header-contacts{
     display:flex;
     align-items: center;
@@ -74,7 +79,7 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
   
-  .header-email-link, .header-phone-link{
+  .header-contact-link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,23 +87,22 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
   
-  .header-email-link{
+  
+    &:hover,
+    &:focus{
+      color: $accent-color;}
+    
+      
+  &:hover .email-icon,
+  &:hover .phone-icon{
+    fill: $accent-color;}
+}
+  
+  .header-contact{
     margin-right:30px;
-  }
-  
-  .menu-item-link:hover,
-  .menu-item-link:focus,
-  .header-email-link:hover,
-  .header-email-link:focus, 
-  .header-phone-link:hover,
-  .header-phone-link:focus{
-    color: $accent-color;
-  }
-  
-  .header-email-link:hover .email-icon,
-  .header-phone-link:hover .phone-icon{
-    fill: $accent-color;
-  }
+
+    &:last-child{
+    margin-right: 0px;}}
+
   

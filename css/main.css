@@ -430,6 +430,10 @@ span {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.menu-item-link:hover, .menu-item-link:focus {
+  color: #2196F3;
+}
+
 .header-contacts {
   display: flex;
   align-items: center;
@@ -445,7 +449,7 @@ span {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-email-link, .header-phone-link {
+.header-contact-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -455,22 +459,21 @@ span {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-email-link {
-  margin-right: 30px;
-}
-
-.menu-item-link:hover,
-.menu-item-link:focus,
-.header-email-link:hover,
-.header-email-link:focus,
-.header-phone-link:hover,
-.header-phone-link:focus {
+.header-contact-link:hover, .header-contact-link:focus {
   color: #2196F3;
 }
 
-.header-email-link:hover .email-icon,
-.header-phone-link:hover .phone-icon {
+.header-contact-link:hover .email-icon,
+.header-contact-link:hover .phone-icon {
   fill: #2196F3;
+}
+
+.header-contact {
+  margin-right: 30px;
+}
+
+.header-contact:last-child {
+  margin-right: 0px;
 }
 
 .hero {
