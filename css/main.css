@@ -331,6 +331,11 @@ span {
 
 .menu-item {
   position: relative;
+  margin-right: 50px;
+}
+
+.menu-item:last-child {
+  margin-right: 0px;
 }
 
 .menu-item::after {
@@ -365,14 +370,6 @@ span {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.menu-item {
-  margin-right: 50px;
-}
-
-.menu-item:last-child {
-  margin-right: 0px;
 }
 
 .header-contacts {
@@ -636,6 +633,10 @@ span {
   margin-right: 0px;
 }
 
+.social-list-item:hover, .social-list-item:focus {
+  background-color: #2196F3;
+}
+
 .social-icon {
   width: 20px;
   height: 20px;
@@ -643,10 +644,6 @@ span {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-list-item:hover, .social-list-item:focus {
-  background-color: #2196F3;
 }
 
 .social-list-item:hover .social-icon,
@@ -881,11 +878,6 @@ span {
   transition-property: color, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.filter,
-.filter:hover,
-.filter:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;

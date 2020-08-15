@@ -12,7 +12,7 @@
   <body class = "body">
     <!--ШАПКА САЙТА-->
     <header class = "header">
-      <div class = "header-container">
+      <div class = "header-container container">
       <nav class = "navigation">
         <a class = "logo link" href = "index.html" lang = "en"><span>Web</span> Studio</a>
         
@@ -31,7 +31,7 @@
           </li>
         </ul>
       </nav>
-      
+
       <ul class = "list header-contacts">
 
         <li class = "header-email">
@@ -193,7 +193,7 @@
     </main>
   
     <footer class = "footer">
-      <div class = "footer-container">
+      <div class = "footer-container container">
       <!--ФУТЕР КОНТАКТЫ-->
       <div class = "contacts">
         <a class = "footer-logo link" lang = "en" href = "index.html"><span>Web</span> Studio</a>
@@ -245,12 +245,19 @@
 
        <!--ФУТЕР ФОРМА РЕГИСТРАЦИИ-->
        
-       <div class = "subscription-form">
-        <p class = "social-call">Подпишитесь на рассылку</p>
-        <a class = "button">Подписаться
-          <svg class = "sendicon">
-            <use href = "./images/sprite.svg#icon-sendicon"></use>
-          </svg>
+       <form class = "subscription-form">
+        <div class = "subscription-form-container">
+          <label class = "social-call" for = "email">Подпишитесь на рассылку</label>
+          <div class = "subscription-line">
+            <input class = "social-call-form" type = "email" name = "email" id = "email" placeholder = "E-mail">
+            <button class = "button" type = "submit">Подписаться
+            <svg class = "sendicon">
+              <use href = "./images/sprite.svg#icon-sendicon"></use>
+            </svg>
+            </button>
+          </div>
+        </div>
+      </form>
 
         </a>
       </div>

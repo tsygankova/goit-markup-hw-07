@@ -2,6 +2,7 @@
 .team-section{
   background-color: $section-color;
 }
+
 .team-member{
   width:270px;
   margin-right:30px;
@@ -10,10 +11,10 @@
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 38px;
-}
 
-.team-member.last-child{
-  margin-right: 0px;
+
+    &.last-child{
+    margin-right: 0px;}
 }
 
 .team-member-image{
@@ -59,10 +60,14 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-list-item.link.last-child{
-margin-right:0px;
+
+    &.link.last-child{
+        margin-right:0px;}
+
+    &:hover, 
+    &:focus{
+        background-color: $accent-color;}
 }
 
 .social-icon{
@@ -72,13 +77,8 @@ margin-right:0px;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-list-item:hover, .social-list-item:focus{
-  background-color: $accent-color;
-}
-
-.social-list-item:hover .social-icon,
-.social-list-item:focus .social-icon{
-  fill: $title-dark-theme-color;
+    .social-list-item:hover &,
+    .social-list-item:focus &{
+        fill: $title-dark-theme-color;}
 }
