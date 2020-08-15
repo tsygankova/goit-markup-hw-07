@@ -1,7 +1,7 @@
 .body{
-    background-color:var(--background-color);
-    color: var(--text-main-color);
-    font-family: var(--main-font);
+    background-color:$background-color;
+    color: $text-main-color;
+    font-family: $main-font;
     font-size:14px;
     letter-spacing: 0.03em;
   }

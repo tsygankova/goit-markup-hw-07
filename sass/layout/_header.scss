@@ -13,25 +13,12 @@
     align-items: center;
   }
   
-  /*logo*/
-  .logo, .footer-logo{
-    font-family: var(--secondary-font);
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
-  }
-  .logo{
-    color: var(--title-light-theme-color);
-  }
-  
-  /*logo blue*/
-  span{color:var(--logo-color);}
   .menu-container{
     display:flex;
     flex-direction: row;
     margin-left:85px;
   }
-  
+ 
   .menu-item{
     position: relative;
   }
@@ -54,8 +41,6 @@
     background-color: var(--accent-color);
   }
   
-  
-  
   /* index header*/
   .menu-item-link, 
   .header-email-link,
@@ -66,7 +51,7 @@
   }
   
   .menu-item-link{
-    color: var(--title-light-theme-color);
+    color: $title-light-theme-color;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -86,8 +71,8 @@
   }
   
   .email-icon, .phone-icon{
-    fill:var(--text-main-color);
-    fill:currentColor;
+    fill: $text-main-color;
+    fill: currentColor;
     margin-right:10px;
     transition-property: fill;
     transition-duration: 250ms;
@@ -97,7 +82,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--text-main-color);
+    color: $text-main-color;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -113,11 +98,11 @@
   .header-email-link:focus, 
   .header-phone-link:hover,
   .header-phone-link:focus{
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
   .header-email-link:hover .email-icon,
   .header-phone-link:hover .phone-icon{
-    fill:var(--accent-color)
+    fill: $accent-color;
   }
   

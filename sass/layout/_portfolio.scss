@@ -1,5 +1,5 @@
 .portfolio{
-    border-top: 1px solid var(--portfolio-border-color);
+    border-top: 1px solid $portfolio-border-color;
     padding-top:93px;
     padding-bottom: 94px;
   }
@@ -18,11 +18,11 @@
   }
   
   .filter{
-    color: var(--title-light-theme-color);
+    color: $title-light-theme-color;
     padding: 6px 22px;
     border:transparent;
     border-radius:4px;
-    background-color: var(--section-color);
+    background-color: $section-color;
     transition-property: color, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -39,8 +39,8 @@
   }
   
   .filter:hover, .filter:focus{
-    color: var(--hover-buttons-text);
-    background-color: var(--portfolio-color);
+    color: $hover-buttons-text;
+    background-color: $portfolio-color;
   }
   
   /*portolio items*/
@@ -74,7 +74,7 @@
     line-height: 2;
     text-align: left;
     letter-spacing: 0.06em;
-    color: var(--title-light-theme-color);
+    color: $title-light-theme-color;
   }
   
   .portfolio-item-text{
@@ -83,7 +83,7 @@
     padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
-    color: var(--text-main-color);
+    color: $text-main-color;
     text-align: left;
   }
   
@@ -105,8 +105,8 @@
     .portfolio-item-hover-text{
         font-size: 18px;
         line-height: 1.56;
-        color:var(--hover-buttons-text);
-        background-color: var(--portfolio-color);
+        color: $hover-buttons-text;
+        background-color: $portfolio-color;
         text-align: left;
         position: absolute;
         transform: none;

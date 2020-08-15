@@ -24,7 +24,7 @@
     background-size: auto;
     background-position: center;
     background-repeat:no-repeat;
-    background-color: var(--section-color);
+    background-color: $section-color;
     margin-bottom:30px;
     border-radius: 4px;
   }
@@ -55,13 +55,13 @@
     line-height: 1.14;
     text-transform: uppercase;
     text-align: left;
-    color: var(--title-light-theme-color);
+    color: $title-light-theme-color;
     margin-bottom:10px;
   }
   
   .features-item-text{
     line-height: 1.71;
-    color:var(--text-main-color);
+    color: $text-main-color;
     text-align: left;
   }
   
@@ -69,7 +69,7 @@
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    color: var(--title-light-theme-color);
+    color: $title-light-theme-color;
     text-align: center;
   }
   

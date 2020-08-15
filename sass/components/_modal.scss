@@ -22,7 +22,7 @@
     margin: 0 auto;
     display: block;
     width: 528px;
-    background: #FFFFFF;
+    background: $background-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     padding: 40px;
@@ -45,14 +45,14 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background: #FFFFFF;
+    background: $background-color;
     border: 1px solid rgba(0, 0, 0, 0.1);
   }
   
   .close-form-button-icon{
     width:18px;
     height: 18px;
-    fill: var(--form-icon-color);
+    fill: $form-icon-color;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -68,7 +68,7 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 1.15px;
-    color: var(--title-light-theme-color);
+    color: $title-light-theme-color;
     margin-bottom: 40px;
   }
   
@@ -109,7 +109,7 @@
     width: 18px;
     height: 18px;
     margin-left: 18px;
-    fill: var(--form-icon-color);
+    fill: $form-icon-color;
   
     position: absolute;
     top: 11px;
@@ -204,7 +204,7 @@
   display: flex;
   width: 15px;
   height: 15px;
-  fill: var(--background-color);
+  fill: $background-color;
   margin-right: 10px;
   border: #212121 solid 1px;
   transition-property: border-color, background-color;
@@ -214,9 +214,9 @@
   }
   
   .checkbox:checked + .icon-check{
-  fill: var(--background-color);
-  background-color:var(--accent-color);
-  border-color: var(--accent-color);
+  fill: $background-color;
+  background-color:$accent-color;
+  border-color: $accent-color;
   }
   
   .terms{
@@ -226,7 +226,7 @@
   
   .terms-link{
     padding-left: 5px;
-    color:var(--accent-color);
+    color:$accent-color;
   }
   
   .form-button:hover, .form-button:focus{

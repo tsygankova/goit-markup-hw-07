@@ -1,4 +1,4 @@
-.footer{background: var(--footer-color);
+.footer{background: $footer-color;
     display: flex;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -31,13 +31,13 @@
   .footer-address{
     font-style: normal;
     line-height: 1.71;
-    color: var(--title-dark-theme-color);
+    color: $title-dark-theme-color;
   }
   
   .footer-email, .footer-tel{
     font-style: normal;
     line-height: 1.71;
-    color: var(--footer-links-color);
+    color: $footer-links-color;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -47,7 +47,7 @@
   .footer-email:focus,
   .footer-tel:hover,
   .footer-tel:focus{
-    color: var(--accent-color);
+    color: $accent-color;
   }
   
   .subscription-form-container{
@@ -59,11 +59,11 @@
     font-weight: bold;
     line-height: 1.14;
     text-transform: uppercase;
-    color: var(--title-dark-theme-color);
+    color: $title-dark-theme-color;
   }
   
   .footer-logo{
-    color:#FFFFFF;
+    color: #ffffff;
   }
   
   .social-footer{
@@ -87,7 +87,7 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: var(--footer-social-background);
+    background-color: $footer-social-background;
     justify-content: center;
     align-items: center;
     transition-property: background-color;
@@ -98,18 +98,18 @@
   .socialmedia-icon{
     width:20px;
     height:20px;
-    fill: var(--title-dark-theme-color);
+    fill: $title-dark-theme-color;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .socialmedia-item:hover, .social-media-item:focus{
-    background-color: var(--accent-color);
+    background-color: $accent-color;
   }
   
   .socialmedia-item:hover .socialmedia-icon, .social-media-item:focus .socialmedia-icon{
-    fill:var(--hover-buttons-text);
+    fill:$hover-buttons-text;
   }
   
   .subscription-form-container{
@@ -124,7 +124,7 @@
   .social-call-form{
     width: 358px;
     height: 50px;
-    background-color: var(--footer-color);
+    background-color: $footer-color;
     border:1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -142,14 +142,14 @@
     min-width:200px;
     height: 50px;
     padding: 8px 10px 12px 29px;
-    background:var(--accent-color);
+    background: $accent-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    color: var(--title-dark-theme-color);
+    color: $title-dark-theme-color;
     border:transparent;
     align-items: center;
   }
@@ -157,7 +157,7 @@
   .sendicon{
   width:24px;
   height:24px;
-  fill:var(--hover-buttons-text);
+  fill: $hover-buttons-text;
   margin-left: 10px;
   }
   
