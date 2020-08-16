@@ -228,7 +228,7 @@
     color:$accent-color;
   }
   
-  .form-button:hover, .form-button:focus{
-    cursor: pointer;
-    }
+  .form .button{
+    display: block;
+  }
   
